@@ -1,0 +1,419 @@
+#bottomMenu2{
+  display: none;
+}
+
+
+
+
+
+
+//2nd---------------------------------------------------------------------------------------------------------
+@media only screen and (max-width: 1080px){
+  body{
+
+    #topMenu{
+      display: inline-block;
+      width: 100%;
+      //height: 400px;
+     margin: 0;
+      border-left:none;
+      border-right:none;
+a{
+
+  margin-left:40px;
+  //text-align: center;
+  font-size: 20px;
+
+}
+    }
+    #topMenu a:hover:after{
+      display: none;
+    }
+
+    #p1-article{
+      font-size: 20px;
+      padding-bottom: 50px;
+
+    }
+    #p2-article{
+      padding-bottom: 50px;
+      font-size: 16px;
+    }
+    #p-registration{
+
+      font-size: 20px;
+      text-align: center;
+      padding-top: 20px;
+     // padding-left: 10%;
+
+    }
+
+//Registration Box
+    #section-center{
+      width: 40%;
+      //margin: 0 6%;
+      margin-left:30%;
+      padding: 50px 10px 10px 10px;
+      padding-bottom: 200px;
+
+      #name{
+        margin-left: 20px;
+      }
+      #email{
+        margin-left: 20px;
+      }
+
+
+
+      #month{
+        width: 80px;
+      }
+      #day{
+      width: 50px;
+      }
+      #year{
+        width: 60px;
+      }
+
+      #box{
+        margin-left: 30px;
+
+        //display: inline-flex;
+        //margin-right: 20px;
+
+      }
+      #paragraph{
+        margin-left: -40px;
+        float:left;
+        text-align: right;
+        font-size: 16px;
+        padding-bottom: 10px;
+      }
+
+     #submit{
+       margin-right: 45px;
+       float:right;
+       padding-left:10px;
+     }
+    }
+    #image{
+      margin-left: 20%;
+      margin-top: -15%;
+      //display: none;
+    }
+
+//buttomMenu
+    #bottomMenu{
+
+      //width: 100%;
+      height: 400px;
+      padding-bottom: 120px;
+
+      padding-left: 5px;
+      display: inline-block;
+
+
+      nav {
+        max-width: 100%;
+        padding: 1em;
+        padding-left: 10%;
+        //padding-right:20%;
+        background-color: $green;
+        display: block;
+        text-align: left;
+
+
+      a{
+        font-size: 20px;
+
+      }
+        ul{
+          font-size: 24px;
+
+        }
+      }
+
+    }
+
+
+  }//body
+}//@media
+
+
+//2rd ------------------------------for Tablet screens--------------------------------------------------------
+@media only screen and(max-width : 760px){
+
+
+  #bottomMenu2{
+    display: inline-block;
+    background-color: $green;
+    width: 760px;
+
+    a{color: #ffffff;font-size:20px; text-align:center;}
+
+
+  }
+
+  body{
+
+    #topMenu{
+      display: inline-block;
+      margin: 0;
+      border-left:none;
+      border-right:none;
+      a{
+        margin-left:1%;
+        text-align: center;
+        font-size: 20px;
+
+      }
+    }
+    #topMenu a:hover:after{
+      display: none;
+    }
+
+    #p-registration{
+
+      font-size: 20px;
+      text-align: center;
+      padding-top: 20px;
+      padding-left: 8%;
+
+    }
+
+    //Registration Box
+    #section-center{
+      width: 95%;
+      //margin: 0 6%;
+      margin-left:10px;
+      padding: 50px 10px 10px 10px;
+      padding-bottom: 200px;
+
+      #name{
+        margin-left: 20px;
+      }
+      #email{
+        margin-left: 20px;
+      }
+
+
+
+      #month{
+        width: 80px;
+      }
+      #day{
+        width: 50px;
+      }
+      #year{
+        width: 60px;
+      }
+
+      #box{
+        margin-left: 30px;
+
+        //display: inline-flex;
+        //margin-right: 20px;
+
+      }
+      #paragraph{
+        margin-left: -90px;
+        float:left;
+        text-align: right;
+        font-size: 12px;
+        padding-bottom: 10px;
+      }
+
+      #submit{
+        margin-right: 45px;
+        float:right;
+        padding-left:10px;
+      }
+    }
+    #image{
+      margin-left: -5%;
+      margin-top: -15%;
+      //display: none;
+    }
+
+    //buttomMenu
+
+    #bottomMenu{
+
+      //width: 100%;
+      height: 120px;
+      padding-bottom: 120px;
+
+      padding-left: 5px;
+      display: none;
+
+
+      nav {
+        max-width: 100%;
+        padding: 1em;
+        padding-left: 60px;
+        //padding-right:20%;
+        background-color: $green;
+        display: block;
+        text-align: left;
+
+
+        a{
+          font-size: 18px;
+
+        }
+        ul{
+          font-size: 16px;
+
+        }
+      }
+
+    }
+
+
+  }//body
+}//@media
+//------------------------------------------for Phone screens------------------------------------------
+@media only screen and(max-width : 380px){
+
+
+
+  #bottomMenu2{
+    display: inline-block;
+    background-color: $green;
+    width: 380px;
+
+    a{color: #ffffff;font-size:16px; text-align:center;}
+
+
+  }
+  body{
+
+    #topMenu{
+      display: block;
+      margin: 0;
+      border-left:none;
+      border-right:none;
+      padding-bottom: 50%;
+      a{
+        margin-left:15%;
+        text-align: center;
+        font-size: 18px;
+      }
+
+
+    }
+    #topMenu a:hover:after{
+      display: none;
+    }
+    #p1-article{
+      font-size: 20px;
+      padding-bottom: 50px;
+      padding-top: 150px;
+    }
+    #p-registration{
+
+      font-size: 20px;
+      text-align: center;
+      padding-top: 20px;
+      padding-left: 10%;
+
+    }
+
+    //Registration Box
+    #section-center{
+      width: 95%;
+      //margin: 0 6%;
+      margin-left:10px;
+      padding: 50px 10px 10px 10px;
+      padding-bottom: 200px;
+
+      #name{
+        margin-left: 20px;
+      }
+      #email{
+        margin-left: 20px;
+      }
+
+
+
+      #month{
+        width: 60px;
+        font-size: 10px;
+      }
+      #day{
+        width: 40px;
+        font-size: 10px;
+      }
+      #year{
+        width: 50px;
+        font-size: 10px;
+      }
+
+      #box{
+        margin-left: 20px;
+
+        //display: inline-flex;
+        //margin-right: 20px;
+
+      }
+      #paragraph{
+        margin-left: -140px;
+        float:left;
+        text-align: right;
+        font-size: 12px;
+        padding-bottom: 10px;
+      }
+
+      #submit{
+        margin-right: 45px;
+        float:right;
+        padding-left:10px;
+        font-size: 18px;
+      }
+    }
+    #image{
+      margin-left: -5%;
+      margin-top: -20%;
+      //display: none;
+    }
+
+    //buttomMenu
+    #bottomMenu{
+
+      //width: 100%;
+      height: 10%;
+      padding-bottom: 120px;
+
+      padding-left: 5px;
+      display: none;
+      //display: inline-block;
+
+
+      nav {
+        width: 768px;
+        padding: 1em;
+        padding-left: 80px;
+        //padding-right:20%;
+        background-color: $green;
+        display: block;
+        text-align: left;
+
+
+        a{
+          font-size: 18px;
+
+        }
+        ul{
+          font-size: 16px;
+
+        }
+      }
+
+    }
+
+
+  }//body
+}//@media
+
+
+

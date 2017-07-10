@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.tymeleaf.org" xmlns:form="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../../../resources/css/bootstrap.min.css" rel="stylesheet" media="screen" th:href="@{/resources/css/bootstrap.min.css}"/>
+</head>
+<body>
+
+<div class="container">
+
+        Thank you&nbsp<tr th:each="user : ${users}"><a href="#" th:text="${user.name}"></a>, you've successfully submitted a form!<br>
+        Your member ID is: <td th:text="${user.id}">1</td>
+        and your email is: <td th:text="${user.email}"></td>
+
+            <td>
+                <a href="/seveneleven"><button type="button" class="btn btn-info">OK</button></a>
+            </td>
+        </tr>
+</div>
+
+
+
+
+</body>
+</html>
